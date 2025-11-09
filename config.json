@@ -1,0 +1,14 @@
+{
+  "enable_tools": true,
+  "tools": [
+    {
+      "name": "GoogleMapsSearch",
+      "description": "Find nearby places using Flask backend",
+      "url": "http://127.0.0.1:8000/search",
+      "method": "GET",
+      "query_params": {"query": "{{user_query}}"},
+      "response_type": "json",
+      "enabled": true
+    }
+  ]
+}
